@@ -1,0 +1,11 @@
+{
+  "name": "pradeep-demo-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pradeep chinchole <chincholepv@yahoo.com> (https://github.com/chincholepradeep/pradeep-angular2-projects/upload/master)",
+  "license": "ISC"
+}
