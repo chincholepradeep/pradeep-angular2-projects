@@ -1,0 +1,21 @@
+<div [hidden]="!users">
+  <div class="container col-md-2">
+    
+<ul class="list-group">
+<li *ngFor="let u of users" class="list-group-item">
+<a [routerLink]="['/users',u.id]">   {{u.username}} </a>
+</li>  
+</ul>  
+</div>
+</div>
+
+<div [hidden]="!user">
+    <div class="container col-md-12">
+      
+      {{user|json}}
+
+  </div>
+
+</div>
+  
+  

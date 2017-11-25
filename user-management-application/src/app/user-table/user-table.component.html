@@ -1,0 +1,26 @@
+<div>
+  <div class="container col-md-6">
+    
+<table class="table table-bordered table-hover table-striped">
+<thead>
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Address</th>
+        <th>View Todos</th>
+    </tr>
+  </thead>
+  
+  <tr *ngFor="let u of users">
+      <td>{{u.id}}</td>
+      <td>{{u.name}}</td>
+      <td>{{u.email}}</td>
+      <td>{{u.address.city}}</td>
+      <td><input type="button" value="View Todos" class="btn btn-info"> </td>
+  </tr>
+</table>
+
+
+</div>
+</div>
